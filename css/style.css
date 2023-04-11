@@ -1,0 +1,44 @@
+body {
+  background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701968204.jpg');
+  background-repeat: no-repeat; 
+  
+}
+
+/* comanl gif */
+
+.colman {
+  display: block;
+  width: 250px;
+  position: relative;
+  animation: colman 8s ease-in infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes colman {
+  0% {left:-420px;}
+  100% { left:2000px;}
+
+}
+
+/* bigshawn gif */
+
+.bigshawn {
+  position: relative;
+  top: 220px;
+  animation: bigshawn 3s ease-in infinite;
+  animation-direction: alternate;
+}
+
+/* oooo gif */
+  .oooo {
+    position: relative;
+    left: 600px;
+    animation: oooo 2s infinite linear ;
+
+  }
+
+  @keyframes oooo {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+  }
